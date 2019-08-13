@@ -254,44 +254,44 @@ Path=..\..\pva\CraneLib\sch\*.*
 IncludeSubFolders=1
 
 [Parameter1]
-Name=CopyrightYear
-Value=2018
+Name=TID
+Value=US_windvine_WiFi
 
 [Parameter2]
-Name=PCB_Layout
-Value=Giovanni Campanella
-
-[Parameter3]
-Name=PCB_Rev
-Value=E1
-
-[Parameter4]
-Name=PRJ_Customer
-Value=Public Release
-
-[Parameter5]
-Name=PRJ_Engineer
-Value=Giovanni Campanella
-
-[Parameter6]
-Name=PRJ_Number
-Value=TIDA-01486
-
-[Parameter7]
-Name=PRJ_Title
-Value=Ultrasonic Flow Transmitter
-
-[Parameter8]
-Name=SCH_Rev
-Value=E1
-
-[Parameter9]
 Name=TechSupport
 Value=http://www.ti.com/support
 
+[Parameter3]
+Name=SCH_Rev
+Value=A0
+
+[Parameter4]
+Name=PRJ_Title
+Value=Ultrasonic Windvine
+
+[Parameter5]
+Name=PRJ_Number
+Value=US_windvine_WiFi
+
+[Parameter6]
+Name=PRJ_Engineer
+Value=Viktor Partyshev
+
+[Parameter7]
+Name=PRJ_Customer
+Value=Public Release
+
+[Parameter8]
+Name=PCB_Rev
+Value=A0
+
+[Parameter9]
+Name=PCB_Layout
+Value=Viktor Partyshev
+
 [Parameter10]
-Name=TID
-Value=TIDA-01486
+Name=CopyrightYear
+Value=2019
 
 [Configuration1]
 Name=Sources
@@ -365,7 +365,7 @@ OutputDir=Project Outputs
 [OutputGroup1]
 Name=Netlist Outputs
 Description=
-TargetPrinter=Samsung SCX-4200 Series (USB001)
+TargetPrinter=\\WST-Print2\Bizhub01
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=EDIF
 OutputName1=EDIF for PCB
@@ -467,12 +467,22 @@ OutputName20=WireList Netlist
 OutputDocumentPath20=
 OutputVariantName20=
 OutputDefault20=0
+OutputType21=XSpiceNetlist
+OutputName21=XSpice Netlist
+OutputDocumentPath21=
+OutputVariantName21=
+OutputDefault21=0
 
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=Samsung SCX-4200 Series (USB001)
+TargetPrinter=\\WST-Print2\Bizhub01
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
+OutputType1=AdvSimNetlist
+OutputName1=Mixed Sim
+OutputDocumentPath1=
+OutputVariantName1=
+OutputDefault1=0
 
 [OutputGroup3]
 Name=Documentation Outputs
@@ -557,7 +567,7 @@ PageOptions12=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|Print
 [OutputGroup4]
 Name=Assembly Outputs
 Description=
-TargetPrinter=Samsung SCX-4200 Series (USB001)
+TargetPrinter=\\WST-Print2\Bizhub01
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Assembly
 OutputName1=Assembly Drawings
@@ -579,7 +589,7 @@ OutputDefault3=0
 [OutputGroup5]
 Name=Fabrication Outputs
 Description=
-TargetPrinter=Samsung SCX-4200 Series (USB001)
+TargetPrinter=\\WST-Print2\Bizhub01
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=CompositeDrill
 OutputName1=Composite Drill Drawing
@@ -651,7 +661,7 @@ OutputDefault12=0
 [OutputGroup6]
 Name=Report Outputs
 Description=
-TargetPrinter=Samsung SCX-4200 Series (USB001)
+TargetPrinter=\\WST-Print2\Bizhub01
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=SimpleBOM
 OutputName1=Simple BOM
@@ -690,7 +700,7 @@ OutputDefault6=0
 [OutputGroup7]
 Name=Other Outputs
 Description=
-TargetPrinter=Samsung SCX-4200 Series (USB001)
+TargetPrinter=\\WST-Print2\Bizhub01
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Text Print
 OutputName1=Text Print
@@ -870,7 +880,7 @@ PageOptions29=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|Print
 [OutputGroup8]
 Name=Validation Outputs
 Description=
-TargetPrinter=Samsung SCX-4200 Series (USB001)
+TargetPrinter=\\WST-Print2\Bizhub01
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Design Rules Check
 OutputName1=Design Rules Check
@@ -909,7 +919,7 @@ OutputDefault6=0
 [OutputGroup9]
 Name=Export Outputs
 Description=
-TargetPrinter=Samsung SCX-4200 Series (USB001)
+TargetPrinter=\\WST-Print2\Bizhub01
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=ExportSTEP
 OutputName1=Export STEP
@@ -960,7 +970,7 @@ OutputDefault9=0
 [OutputGroup10]
 Name=PostProcess Outputs
 Description=
-TargetPrinter=Samsung SCX-4200 Series (USB001)
+TargetPrinter=\\WST-Print2\Bizhub01
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Copy Files
 OutputName1=Copy Files
