@@ -1,0 +1,19 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: ultrasound_wifi.PcbDoc   8/13/2019  7:59:37 PM
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : US_windvine_WiFiA0.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      20mil (0.508mm)                                           Round             121       PTH        22.96inch (583.09mm)
+T2      38mil (0.965mm)                                           Round             2         PTH        0.16inch (4.04mm)
+T3      39mil (1mm)                                               Round             18        PTH        8.29inch (210.59mm)
+T4      40mil (1.016mm)                                           Round             5         PTH        0.49inch (12.50mm)
+T5      47mil (1.2mm)                                             Round             4         PTH        0.30inch (7.62mm)
+T6      50mil (1.27mm)                                            Round             6         PTH        1.41inch (35.91mm)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              156
+
+Total Processing Time (hh:mm:ss) : 00:00:01

@@ -1,0 +1,6 @@
+DRC Rules Export File for PCB: U:\git\ultrasound_wifi\ultrasound_wifi.PcbDoc
+RuleKind=Clearance|RuleName=U6|Scope=Board|Minimum=7.70
+RuleKind=ShortCircuit|RuleName=ShortCircuit|Scope=Board|Allowed=0
+RuleKind=Clearance|RuleName=Clearance|Scope=Board|Minimum=10.00
+RuleKind=Width|RuleName=Width|Scope=Board|Minimum=7.80
+RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion|Scope=Board|Minimum=4.00

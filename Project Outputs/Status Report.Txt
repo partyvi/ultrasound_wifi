@@ -1,0 +1,14 @@
+Project Outputs Generation Report
+---------------------------------
+Start Output Generation At 8:34:32 PM On 8/13/2019
+
+Output: PDF BOM (TI Designs format)
+Type  : BOM
+From  : Variant [001] of Project [ultrasound_wifi.PrjPcb]
+   Generated File[US_windvine_WiFiA0(001)_BOM.xlsx]
+
+
+Files Generated   : 1
+Documents Printed : 0
+
+Finished Output Generation At 8:34:37 PM On 8/13/2019
